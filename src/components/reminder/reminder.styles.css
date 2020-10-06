@@ -1,0 +1,32 @@
+.reminder {
+  display: inline-flex;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  padding: 2px 10px;
+}
+
+.reminder:focus {
+  outline: 0;
+}
+
+.reminder .label {
+  color: white;
+  font-size: 10px;
+}
+
+.reminder--color--blue {
+  background-color: cornflowerblue;
+}
+
+.reminder--color--red {
+  background-color: coral;
+}
+
+.reminder--color--pink {
+  background-color: lightpink;
+}
+
+.reminder--color--green {
+  background-color: lightgreen;
+}
