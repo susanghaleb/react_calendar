@@ -1,0 +1,10 @@
+.wrapper__weekdays__headers {
+  display: inline-flex;
+}
+
+.wrapper__calendar {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 860px;
+  width: '100%';
+}
