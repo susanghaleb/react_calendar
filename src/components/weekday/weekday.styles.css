@@ -1,0 +1,17 @@
+.square {
+  padding: 5px 10px;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+.square--weekend {
+  background-color: lightgrey;
+}
+
+.square--weekend > span {
+  color: cornflowerblue;
+}
+
+.square--disabled > span {
+  color: gray;
+}
