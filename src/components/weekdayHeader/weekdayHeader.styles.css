@@ -1,0 +1,10 @@
+.container {
+  background-color: dodgerblue;
+  width: 122px;
+  height: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.container > span {
+  color: white;
+}
