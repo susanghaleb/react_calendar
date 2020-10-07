@@ -1,0 +1,18 @@
+.wrapper__buttons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: cornflowerblue;
+  border: cornflowerblue;
+  margin: 0 10px;
+  border-radius: 30%;
+  width: 30px;
+  height: 25px;
+}
+
+.btn:focus {
+  outline: 0;
+}
