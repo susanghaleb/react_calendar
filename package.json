@@ -2,6 +2,18 @@
   "name": "template-react-redux-storybook",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "email": "susanaghaleb@gmail.com",
+    "name": "Suzanne Ghaleb de Celis",
+    "bugs": {
+      "url": "https://github.com/susanghaleb/react_calendar/issues"
+    }
+  },
+  "repository": {
+    "directory": "susanghaleb/react_calendar",
+    "type": "git",
+    "url": "https://github.com/susanghaleb/react_calendar"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
