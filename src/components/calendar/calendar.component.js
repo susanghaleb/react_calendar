@@ -20,7 +20,7 @@ export function Calendar({ month, year }) {
   ]
 
   return (
-    <>
+    <div className="calendar">
       <div className="wrapper__weekdays__headers">
         {weekdaysLabel.map((weekday) => (
           <WeekdayHeader label={weekday} key={weekday} />
@@ -36,7 +36,7 @@ export function Calendar({ month, year }) {
           />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
