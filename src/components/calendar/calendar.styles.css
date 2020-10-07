@@ -1,0 +1,16 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper__weekdays__headers {
+  display: inline-flex;
+}
+
+.wrapper__calendar {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 854px;
+  width: '100%';
+}
