@@ -16,7 +16,7 @@ function App() {
 
   React.useEffect(() => {
     getWeather('London')
-  }, [])
+  }, [getWeather])
 
   const handleDecrement = React.useCallback(() => {
     if (month === 0) {
@@ -25,7 +25,7 @@ function App() {
       return
     }
     setMonth((prev) => prev - 1)
-  }, [])
+  }, [month])
 
   const handleIncrement = React.useCallback(() => {
     if (month === 11) {
@@ -34,7 +34,7 @@ function App() {
       return
     }
     setMonth((prev) => prev + 1)
-  }, [])
+  }, [month])
 
   const monthCalendar = moment([year, month]).format('MM')
   const yaarCalendar = moment([year, month]).format('YYYY')
